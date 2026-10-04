@@ -1,0 +1,17 @@
+{
+    "name": "Scheduled Tasks",
+    "image": "images/schedule.png",
+    "auth": "GP247",
+    "email": "support@gp247.net",
+    "link": "https://GP247.net",
+    "configGroup": "Plugins",
+    "configCode": "Other",
+    "configKey": "ScheduledTasks",
+    "version": "1.0.0",
+    "requireCore": ["3.1"],
+    "requireUpdateFrom": "1.0.0",
+    "requireComposerPackages": [],
+    "requireGp247Extensions": [],
+    "requireLivewire": true,
+    "storeScope": "global"
+}
