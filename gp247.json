@@ -7,7 +7,7 @@
     "configGroup": "Plugins",
     "configCode": "Other",
     "configKey": "ScheduledTasks",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "requireCore": ["3.1"],
     "requireUpdateFrom": "1.0.0",
     "requireComposerPackages": [],
