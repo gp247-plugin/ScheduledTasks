@@ -39,7 +39,7 @@ Mọi tác vụ được chống chạy chồng. Tắt hoặc gỡ plugin: mọi
    Lần đầu mở, bạn sẽ thấy danh sách tác vụ đang có trong lịch của site. Nếu thấy khung vàng "Bộ lập lịch chưa từng chạy trên
    site này", làm tiếp mục [Bật bộ lập lịch](#bật-bộ-lập-lịch).
 
-**Yêu cầu:** GP247 core ≥ 3.0 và Livewire (có sẵn trong admin GP247).
+**Yêu cầu:** GP247 core ≥ 3.0 và Livewire (có sẵn trong trang quản trị S-Cart).
 
 ## Bật bộ lập lịch
 
@@ -327,4 +327,4 @@ trên màn hình bị xoá.
 
 ---
 
-<sub>📅 **Cập nhật lần cuối:** 2026-10-22 · ✍️ **Tác giả (Author):** GP247</sub>
+<sub>📅 **Cập nhật lần cuối:** 2026-11-22 · ✍️ **Tác giả (Author):** GP247</sub>

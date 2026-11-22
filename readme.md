@@ -41,7 +41,7 @@ Every task is protected from overlapping runs. Disable or remove the plugin and 
    On first visit you see the tasks currently on the site's schedule. If you see a yellow box "The scheduler has never run on
    this site", continue with [Turn the scheduler on](#turn-the-scheduler-on).
 
-**Requirements:** GP247 core ≥ 3.0 and Livewire (included in the GP247 admin).
+**Requirements:** GP247 core ≥ 3.0 and Livewire (included in the S-Cart admin).
 
 ## Turn the scheduler on
 
@@ -343,4 +343,4 @@ the screen are removed.
 
 ---
 
-<sub>📅 **Last updated:** 2026-10-22 · ✍️ **Author:** GP247</sub>
+<sub>📅 **Last updated:** 2026-11-22 · ✍️ **Author:** GP247</sub>
