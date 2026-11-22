@@ -1,6 +1,6 @@
 > 🌐 **Language:** [🇻🇳 Tiếng Việt](./readme_vi.md) · 🇬🇧 English (current) · [🇯🇵 日本語](./readme_ja.md)
 
-# ScheduledTasks — Scheduled task manager for GP247 / S-Cart
+# ScheduledTasks — Scheduled task manager for S-Cart
 
 ## Introduction
 **ScheduledTasks** is a **free** plugin that lets the site owner see and control **every scheduled task** the Laravel
@@ -78,7 +78,7 @@ The screen **only controls tasks that are already on the schedule in code** (cha
 **not** add new tasks, has **no** field for a command name or arguments, and does **not** offer a pick-list from
 `php artisan list`. Why:
 
-- **A console command runs with the full power of the application.** The command list of a GP247 site includes commands that
+- **A console command runs with the full power of the application.** The command list of an S-Cart site includes commands that
   wipe all data (`db:wipe`, `migrate:fresh`), remove plugins/templates (`gp247:ext-uninstall`), replace the encryption key and
   break every stored API key (`key:generate`), put the site in maintenance (`down`), or hang the scheduler (`tinker`). Letting the
   web pick or type a command means **anyone who takes over one admin account can run them** — even schedule them to run at

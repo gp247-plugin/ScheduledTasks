@@ -1,6 +1,6 @@
 > 🌐 **Ngôn ngữ:** 🇻🇳 Tiếng Việt (hiện tại) · [🇬🇧 English](./readme.md) · [🇯🇵 日本語](./readme_ja.md)
 
-# ScheduledTasks — Quản lý tác vụ định kỳ cho GP247 / S-Cart
+# ScheduledTasks — Quản lý tác vụ định kỳ cho S-Cart
 
 ## Giới thiệu
 **ScheduledTasks** là plugin **miễn phí** giúp chủ site thấy và điều khiển **mọi tác vụ định kỳ** mà Laravel Scheduler chạy
@@ -75,7 +75,7 @@ dụng. Chọn **một** cách hợp với môi trường của bạn:
 Màn hình **chỉ điều khiển các tác vụ đã có trong lịch của code** (đổi lịch, bật/tắt, chạy ngay). Nó **không** cho thêm tác vụ
 mới, **không** có ô nhập tên lệnh hay tham số, và **không** cho chọn từ danh sách `php artisan list`. Lý do:
 
-- **Một lệnh console chạy với toàn quyền của ứng dụng.** Danh sách lệnh của một site GP247 có sẵn các lệnh xoá sạch dữ liệu
+- **Một lệnh console chạy với toàn quyền của ứng dụng.** Danh sách lệnh của một site S-Cart có sẵn các lệnh xoá sạch dữ liệu
   (`db:wipe`, `migrate:fresh`), gỡ plugin/template (`gp247:ext-uninstall`), đổi khoá mã hoá làm hỏng mọi khoá API đã lưu
   (`key:generate`), đưa site vào bảo trì (`down`), hoặc treo bộ lập lịch (`tinker`). Cho chọn hay nhập lệnh trên web thì **ai
   chiếm được một tài khoản admin sẽ chạy được những lệnh đó** — kể cả lập lịch để chúng tự chạy lúc nửa đêm.
